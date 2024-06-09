@@ -1,0 +1,40 @@
+.formInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: -30px;
+    margin: -30px 1.5rem 0 1.5rem; 
+}
+
+.formInput input {
+    background: var(--gray-500);
+    border: none;
+    width: 40rem;
+    height: 3.375rem;
+    border-radius: 8px;
+    padding: 1.35rem;
+}
+
+.formInput button {
+    background: var(--blue-dark);
+    border-radius: 8px;
+    height: 52px;
+    min-width: 90px;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: .25rem;
+    font-size: 14px;
+    transition: .25s;
+}
+
+.formInput button:disabled {
+    cursor: not-allowed;
+    background: var(--gray-400);
+}
+
+.formInput button:not(:disabled):hover {
+    background: var(--blue);
+}

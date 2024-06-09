@@ -1,0 +1,58 @@
+.container {
+    margin: 4rem auto 0 auto;
+    max-width: 46rem;
+}
+
+.content {
+    margin: 0 1.5rem;    
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.info span {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem
+}
+
+.info span button {
+    background: var(--gray-400);
+    width: 25px;
+    height: 19px;
+    border-radius: 9999px;
+    font-size: 12px
+}
+
+.info span:first-child {
+    color: var(--blue);
+    font-size: 14px;
+}
+
+.info span:last-child {
+    color: var(--purple);
+    font-size: 14px;
+}
+
+.emptyContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: 2rem;
+    color: var(--gray-300);
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+}
+
+.emptyContent p:first-child {
+    font-weight: bold;
+}
